@@ -22,7 +22,7 @@ spec:
         ports:
         - containerPort: 5001
         name: backend
+        resources: {}
       imagePullSecrets:
       - name: regcred
-        resources: {}
 status: {}
