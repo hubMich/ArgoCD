@@ -26,6 +26,6 @@ spec:
         - name: BACKEND_URL
           value: backend.default
       imagePullSecrets:
-        - name: regcred
+      - name: regcred
         resources: {}
 status: {}
