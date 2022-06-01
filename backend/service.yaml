@@ -5,7 +5,6 @@ metadata:
   labels:
     app: backend-service
   name: backend-service
-  namespace: argo-cd
 spec:
   ports:
   - name: 5001-5001
